@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroWaves from "@/assets/hero-waves.jpg";
+import oliviumLogo from "../../logo/olivium-full-logo.svg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -23,9 +24,11 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="font-heading font-bold text-6xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight">
-            Olivium
-          </h1>
+          <img 
+            src={oliviumLogo} 
+            alt="Olivium" 
+            className="h-24 md:h-32 lg:h-40 w-auto mx-auto mb-6"
+          />
           <p className="text-2xl md:text-3xl lg:text-4xl text-white/90 font-medium">
             Turning Ideas Into Digital Reality
           </p>
