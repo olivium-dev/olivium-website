@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroWaves from "@/assets/hero-waves.jpg";
-import oliviumLogo from "../../logo/olivium-full-logo.svg";
+import oliviumLogo from "../../logo/olivium-full-logo-white.svg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
